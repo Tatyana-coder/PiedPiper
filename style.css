@@ -1,0 +1,263 @@
+body {
+    max-width: 1219px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007765;
+    height: 84px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 1219px;
+    font-size: 22px;
+}
+
+
+.header-right {
+    display: flex;
+    padding-right: 55px;
+}
+
+.hr {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding-top: 27px;
+    margin-top: 0;
+
+}
+
+ul.hr li {
+
+    display: inline;
+
+}
+
+.logo {
+    padding-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.jumbotron {
+    margin: 0;
+    background: url(images/image-8.png);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #007765;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+    padding-top: 84px;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    padding-left: 55px;
+    text-align: left;
+
+}
+
+.hero {
+    margin: 0;
+    background: url(images/image-9.png);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    padding-left: 172px;
+    padding-right: 154px;
+    color: #FFFFFF;
+}
+
+.ppclogo {
+    text-align: left;
+    padding-right: 48px;
+    float: left;
+}
+
+.team {
+
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #007765;
+}
+
+.teampic li {
+    display: inline-block;
+}
+
+.role {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #333333;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    padding-left: 33%;
+    padding-right: 33%;
+}
+
+ul.teampic {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    padding: 0px 1em 58px 1em;
+    margin: 0;
+}
+
+.problem {
+    background-color: #E5E5E5;
+}
+
+.header-right a {
+    text-decoration-line: none;
+    color: #FFFFFF;
+
+}
+
+.lastp {
+    margin-bottom: 0;
+    padding-bottom: 84px;
+}
+
+.zero {
+    padding: 0;
+    margin: 0;
+}
+
+.last {
+    padding-right: 55px;
+}
+
+
+@media screen and (max-width: 575px) {
+    header {
+        font-size: 20px;
+        font-weight: 300;
+        background-color: chocolate;
+       
+    }
+
+    .hr {
+        padding-top: 20px;
+        font-weight: 300;
+        padding-right: 0;
+    }
+
+    p {
+        font-size: 18px;
+        padding: 0px 25px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .logo {
+       
+        padding-left: 25px;
+    }
+
+    .jumbotron {
+        font-size: 50px;
+        padding: 144px 0px 60px;
+    }
+
+    .hero {
+
+        font-weight: 300;
+        font-size: 28px;
+        text-align: center;
+        padding: 40px 15%;
+        color: #FFFFFF;
+    }
+
+    .ppclogo {
+        width: 100px;
+        text-align: left;
+        padding-right: 24px;
+        float: left;
+    }
+
+    h1 {
+        padding-top: 30px;
+
+    }
+
+    footer {
+        background-color: chocolate;
+        font-weight: 100;
+        font-size: 14px;
+        padding: 16px 20%;
+    }
+
+    .lastp {
+        padding-bottom: 30px;
+    }
+
+    figure {
+        padding-bottom: 35px;
+    }
+    .logo img {
+        width: 80%
+    }
+    li.last {
+        padding-right: 0px;
+    }
+    div.header-right {
+        padding-right: 10px;
+        
+    }
+    ul.hr {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
